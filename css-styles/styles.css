@@ -1,1 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+@font-face {
+    font-family: 'Hey Comic';
+    src: url(/fonts/heycomic.ttf);
+}
+
+@font-face{
+    font-family: 'Comic Helvetic';
+    src: url(/fonts/ComicHelvetic-Light.ttf), url(/fonts/ComicHelvetic-Medium.ttf), url(/fonts/ComicHelvetic-Heavy.ttf);
+}
+
+@font-face {
+    font-family:'Mount Hills' ;
+    src: url(/fonts/MountHills.ttf);
+}
+
+@font-face {
+    font-family: 'Magic Retro';
+    src: url(/fonts/MagicRetro.ttf);
+}
+
+@font-face {
+    font-family: 'Brodies';
+    src: url(/fonts/brodies.ttf);
+}
+
+body{
+    background-color: #e8d4b9 ;
+}
+
+
+h1{
+    font-family: 'Mount Hills';
+}
+
+h2, h3{
+    font-family: 'Magic Retro';
+}
+
+p{
+    font-family: 'Comic Helvetic';
+    font-weight: lighter;
+
+}
+
+nav{
+    background-color: #702d37;  
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+    font-family: 'Hey Comic';
+    border: .1em solid white;
+}
+
+nav li{
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    margin: 0;
+    border: .2em solid white;
+    text-align: center;
+    border-radius: .7em;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #702d37;
+}
+
+body.welkom{
+    background-image: url(/Images/index_layout.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.tips{
+    background-image: url(/Images/tips_layout.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.wegwijzer{
+    background-image: url(/Images/wegwijzer_layout.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+.button{
+    padding: 0.3em 0 0.3em 0;
+    margin: 0.3em;
+    display: flex;
+    justify-content: center;
+    border: 0.2em solid white;
+    background-color: #f2b13e;
+    text-decoration: none;
+    font-family: 'Hey Comic';
+    color: black;
+    border-radius: 0.7em;
+}
+*/
+
+.button {
+    display: inline-block;
+    padding: .2em .8em;
+    margin: .5em;
+    background-color: #f2b13e;
+    color: #464646;
+    text-decoration: none;
+    border: .2em solid white;
+    border-radius: .7em;
+    font-weight: bold;
+    font-family: 'Hey Comic';
+}
+/* Index pagina css code*/
+
+.welkom img:first-of-type{
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+    transform: rotate(-10deg);
+}
+
+.welkom img{
+    width: 4em;
+    margin: 1em 0 1em 3em;
+    transform: rotate(10deg);
+}
+
+.welkom section:first-of-type{
+    color: white;
+}
+
+.welkom section{
+    color: black;
+}
+
+.welkom h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ondertitel{
+    display: flex;
+    justify-content: center;
+    color: #e8d4b9;
+    font-size: medium;
+}
+
+section{
+    margin: 0.5em;
+}
+
+.welkom header{
+    background-color: #6f6f4b;
+    border: 0.2em solid #464646;
+    border-radius: 1em;
+    margin: 0.5em;
+}
+
+.welkom section:last-of-type{
+    background-color: #464646;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+}
+
+.duurzaam{
+    background-color: #e8d4b9;
+    padding: .5em;
+    margin: .3em 0;
+    border: .2em solid #464646;
+    border-radius: .7em;
+    display: flex;
+    justify-content: center;
+    color: #464646;
+}
+
+.welkom section:nth-child(2) img{
+    width: 10em;
+    height: 10em;
+    margin: 1em 4em 1em 4em;
+}
+
+/* tips en tricks css code*/
+
+.tips header img{
+    width: 9em;
+    position: absolute;
+    top: 4.5em;
+    left: 0;
+    bottom: 0;
+    margin-left: 0.2em;
+}
+
+.tips section:first-of-type{
+    margin: 0.5em;
+    font-size: small;
+    max-width: 75% ;
+    display: flex;
+    justify-content: center;
+    margin: 0 4em 0 4em;
+    text-align: center;
+    color: black;
+}
+
+.tips section img:first-of-type{
+    width: 7em;
+    position: absolute;
+    top: 17em;
+    left: 21.5em;
+}
+
+.tips img:nth-of-type(2){
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 25em;
+    right: 24em;
+}
+
+.tips img:nth-of-type(3){
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    top: 45em;
+    left: 22em;
+}
+
+.tips section{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding: 1em;
+    color: white;
+}
+
+.tips ul li{
+    list-style-type: none;
+}
+
+.tips h1{
+    display: flex;
+    justify-content: end;
+    color: #464646;
+    margin-right: .7em;
+}
+
+
+/* wegwijzer css code */
+
+.wegwijzer img{
+    width: 8em;
+}
+
+.wegwijzer h1{
+    display: flex;
+    justify-content: center;
+    margin: .3em;
+    font-family: 'Magic Retro';
+}
+
+.wegwijzer p:first-of-type{
+    text-align: center;
+}
+
+.wegwijzer section:first-of-type p{
+    color: white;
+}
+
+.wegwijzer p:nth-child(1){
+    color: white;
+}
+
+.wegwijzer section:first-of-type{
+    text-align: center;
+    color: black;
+}
+
+.wegwijzer section:first-of-type > h2{
+    color: #f2b13e;
+}
+
+.wegwijzer section{
+    color: white;
+}
+
+.wegwijzer section:last-of-type{
+    text-align: center;
+    color: black;
+}
