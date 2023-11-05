@@ -48,8 +48,26 @@ p{
 
 }
 
+footer{
+    padding: 1mm;
+    background-color: #6f6f4b;
+    padding-bottom: 5em;
+    padding-left: 1mm;
+    padding-top: .7em;
+    color: #464646;
+    font-family: 'Comic Helvetic';
+}
+
+footer img{
+    width: 1em;
+    height: 5em;
+}
+
 nav{
-    background-color: #702d37;  
+    background-color: #702d37;
+    position: fixed;
+    bottom: 0;
+    overflow-x: auto;
 }
 
 nav ul {
@@ -81,21 +99,21 @@ nav a:hover{
 }
 
 body.welkom{
-    background-image: url(/Images/index_layout.jpg);
+    background-image: url(/Images/indexlayout.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.tips{
-    background-image: url(/Images/tips_layout.jpg);
+    background-image: url(/Images/tipslayout.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.wegwijzer{
-    background-image: url(/Images/wegwijzer_layout.jpg);
+    background-image: url(/Images/wegwijzerlayout.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
