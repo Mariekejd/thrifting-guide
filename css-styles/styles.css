@@ -149,17 +149,29 @@ body.wegwijzer{
 }
 /* Index pagina css code*/
 
-.welkom img:first-of-type{
+.welkom header img{
+    width: 8.5em;
+    transform: rotate(0);
+    position: absolute;
+    top: 1em;
+    left: .8em;
+}
+
+.welkom section:first-of-type img:first-of-type{
     width: 10em;
     height: 10em;
     margin: 1em;
     transform: rotate(-10deg);
+
 }
 
-.welkom img{
-    width: 4em;
-    margin: 1em 0 1em 3em;
+.welkom section:first-of-type img:nth-of-type(2){
+    width: 3em;
+    margin: auto;
     transform: rotate(10deg);
+    position: absolute;
+    top: 22em;
+    
 }
 
 .welkom section:first-of-type{
@@ -173,13 +185,13 @@ body.wegwijzer{
 
 .welkom h1{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     color: white;
 }
 
 .ondertitel{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     color: #e8d4b9;
     font-size: medium;
 }
@@ -193,6 +205,7 @@ section{
     border: 0.2em solid #464646;
     border-radius: 1em;
     margin: 0.5em;
+    padding: .5em;
 }
 
 .welkom section:last-of-type{
@@ -216,18 +229,23 @@ section{
 .welkom section:nth-child(2) img{
     width: 10em;
     height: 10em;
-    margin: 1em 4em 1em 4em;
+    margin: auto;
+    margin-top: 1em;
 }
 
 /* tips en tricks css code*/
 
 .tips header img{
-    width: 9em;
+    width: 8em;
     position: absolute;
     top: .3em;
     left: 0;
     bottom: 0;
     margin-left: 0.2em;
+}
+
+.tips h1{
+    margin: .3em;
 }
 
 .tips section:first-of-type{
@@ -244,7 +262,7 @@ section{
 .tips section img:first-of-type{
     width: 7em;
     position: absolute;
-    top: 12.5em;
+    top: 14em;
     left: 21.5em;
 }
 
@@ -260,7 +278,7 @@ section{
     width: 6em;
     height: 6em;
     position: absolute;
-    top: 39.7em;
+    top: 39.5em;
     left: 22.5em;
 }
 
@@ -285,6 +303,10 @@ section{
 
 
 /* wegwijzer css code */
+
+.wegwijzer p:first-of-type{
+    margin: .2em;
+}
 
 .wegwijzer img{
     width: 8em;
@@ -349,10 +371,21 @@ section{
     border-radius: .5em;
 }
 
-div{
+.wegwijzer section:nth-child(5) img{
+    margin: auto;
+    margin-top: .3em;
+    width: 16em;
+    background-color: #464646;
+    padding: .4em;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.wegwijzer section:first-of-type p:last-of-type{
+    margin: .5em;
+    transform: rotate(5deg);
+}
+
 /* Meer locatiea */
 
 body.meer{
