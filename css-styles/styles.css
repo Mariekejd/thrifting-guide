@@ -163,11 +163,12 @@ body.wegwijzer{
 }
 
 .welkom section:first-of-type{
-    color: white;
+    color: #464646;
 }
 
 .welkom section{
-    color: black;
+    color: white;
+    text-align: center;
 }
 
 .welkom h1{
