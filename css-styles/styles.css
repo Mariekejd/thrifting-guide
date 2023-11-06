@@ -99,21 +99,21 @@ nav a:hover{
 }
 
 body.welkom{
-    background-image: url("Images/indexlayout.jpg");
+    background-image: url("/Images/indexlayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.tips{
-    background-image: url("Images/tipslayout.jpg");
+    background-image: url("/Images/tipslayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.wegwijzer{
-    background-image: url("Images/wegwijzerlayout.jpg");
+    background-image: url("/Images/wegwijzerlayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -324,3 +324,26 @@ section{
     text-align: center;
     color: black;
 }
+
+/* Meer locatiea */
+
+body.meer{
+    background-image: url("/Images/meerlocaties.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meer section{
+    background-color: #464646;
+    border-radius: .7em;
+    padding: 1em;
+    color: white;
+}
+
+.meer h1{
+    margin: .5em;
+    color: white;
+}
+
+
