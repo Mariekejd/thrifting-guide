@@ -222,7 +222,7 @@ section{
 .tips header img{
     width: 9em;
     position: absolute;
-    top: 4.5em;
+    top: .3em;
     left: 0;
     bottom: 0;
     margin-left: 0.2em;
@@ -242,7 +242,7 @@ section{
 .tips section img:first-of-type{
     width: 7em;
     position: absolute;
-    top: 17em;
+    top: 12.5em;
     left: 21.5em;
 }
 
@@ -250,7 +250,7 @@ section{
     width: 5em;
     height: 5em;
     position: absolute;
-    top: 25em;
+    top: 20em;
     right: 24em;
 }
 
@@ -258,8 +258,8 @@ section{
     width: 6em;
     height: 6em;
     position: absolute;
-    top: 45em;
-    left: 22em;
+    top: 39.7em;
+    left: 22.5em;
 }
 
 .tips section{
