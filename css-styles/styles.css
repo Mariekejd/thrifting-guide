@@ -99,21 +99,21 @@ nav a:hover{
 }
 
 body.welkom{
-    background-image: url(Images/indexlayout.jpg);
+    background-image: url("Images/indexlayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.tips{
-    background-image: url(Images/tipslayout.jpg);
+    background-image: url("Images/tipslayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.wegwijzer{
-    background-image: url(Images/wegwijzerlayout.jpg);
+    background-image: url("Images/wegwijzerlayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
