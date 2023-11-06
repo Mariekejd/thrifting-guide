@@ -68,6 +68,7 @@ nav{
     position: fixed;
     bottom: 0;
     overflow-x: auto;
+    width: 100%;
 }
 
 nav ul {
@@ -99,21 +100,21 @@ nav a:hover{
 }
 
 body.welkom{
-    background-image: url("/Images/indexlayout.jpg");
+    background-image: url("../Images/indexlayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.tips{
-    background-image: url("/Images/tipslayout.jpg");
+    background-image: url("../Images/tipslayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.wegwijzer{
-    background-image: url("/Images/wegwijzerlayout.jpg");
+    background-image: url("../Images/wegwijzerlayout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -328,7 +329,7 @@ section{
 /* Meer locatiea */
 
 body.meer{
-    background-image: url("/Images/meerlocaties.jpg");
+    background-image: url("../Images/meerlocaties.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -346,4 +347,11 @@ body.meer{
     color: white;
 }
 
+.meer ul li{
+    font-family: 'Comic Helvetic';
+}
 
+.meer section:last-of-type a{
+    text-decoration: underline;
+    color: #f2b13e;
+}
