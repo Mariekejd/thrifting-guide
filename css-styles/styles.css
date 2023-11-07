@@ -165,6 +165,8 @@ body.wegwijzer{
 
 }
 
+/* position absolute vervangen met flex hier */
+
 .welkom section:first-of-type img:nth-of-type(2){
     width: 3em;
     margin: auto;
@@ -262,7 +264,7 @@ section{
 .tips section img:first-of-type{
     width: 7em;
     position: absolute;
-    top: 14em;
+    top: 16em;
     left: 21.5em;
 }
 
@@ -270,16 +272,16 @@ section{
     width: 5em;
     height: 5em;
     position: absolute;
-    top: 20em;
-    right: 24em;
+    top: 26em;
+    right: 23em;
 }
 
 .tips img:nth-of-type(3){
     width: 6em;
     height: 6em;
     position: absolute;
-    top: 39.5em;
-    left: 22.5em;
+    top: 52em;
+    left: 21em;
 }
 
 .tips section{
@@ -301,6 +303,13 @@ section{
     margin-right: .7em;
 }
 
+.tips section ul li{
+    color: black;
+    border: #f2b13e solid .3em;
+    padding: .5em;
+    margin: .5em;
+    border-radius: .8em;
+}
 
 /* wegwijzer css code */
 
