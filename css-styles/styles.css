@@ -383,7 +383,6 @@ section{
 
 .wegwijzer section:first-of-type p:last-of-type{
     margin: .5em;
-    transform: rotate(5deg);
 }
 
 /* Meer locatiea */
