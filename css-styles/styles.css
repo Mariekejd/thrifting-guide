@@ -394,7 +394,7 @@ section{
     margin: .5em;
 }
 
-.wegwijzer p:last-of-type{
+.wegwijzer footer p:last-of-type{
     text-align: left;
     color: #464646;
 }
