@@ -6,27 +6,40 @@
 
 @font-face {
     font-family: 'Hey Comic';
-    src: url(/fonts/heycomic.ttf);
+    src: url(../fonts/heycomic.ttf) format('truetype');
 }
 
 @font-face{
     font-family: 'Comic Helvetic';
-    src: url(/fonts/ComicHelvetic-Light.ttf), url(/fonts/ComicHelvetic-Medium.ttf), url(/fonts/ComicHelvetic-Heavy.ttf);
+    src: url(../fonts/ComicHelvetic-Light.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Comic Helvetic';
+    src: url(../fonts/ComicHelvetic-Medium.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Comic Helvetic';
+    src: url(../fonts/ComicHelvetic-Heavy.ttf) format('truetype');
+    font-weight: 800;
 }
 
 @font-face {
     font-family:'Mount Hills' ;
-    src: url(/fonts/MountHills.ttf);
+    src: url(../fonts/MountHills.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Magic Retro';
-    src: url(/fonts/MagicRetro.ttf);
+    src: url(../fonts/MagicRetro.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Brodies';
-    src: url(/fonts/brodies.ttf);
+    src: url(../fonts/brodies.ttf) format('truetype');
 }
 
 body{
