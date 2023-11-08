@@ -96,7 +96,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: white;
-    padding: 4px;
+    padding: .2em;
     margin: 0;
     border: .2em solid white;
     text-align: center;
@@ -106,6 +106,14 @@ nav a{
 nav a:hover{
     background-color: white;
     color: #702d37;
+}
+
+a.button{
+    transition: 0.2s;
+}
+
+a.button:active {
+    transform: scale(1.5);
 }
 
 body.welkom{
@@ -141,6 +149,7 @@ body.wegwijzer{
     font-weight: bold;
     font-family: 'Hey Comic';
 }
+
 /* Index pagina css code*/
 
 .welkom header img{
@@ -268,7 +277,7 @@ section{
     width: 6em;
     height: 6em;
     position: absolute;
-    top: 18em;
+    top: 22em;
     right: 23em;
     z-index: 1;
 }
@@ -383,6 +392,11 @@ section{
 }
 .wegwijzer section:first-of-type p:last-of-type{
     margin: .5em;
+}
+
+.wegwijzer p:last-of-type{
+    text-align: left;
+    color: #464646;
 }
 
 /* Meer locaties */
