@@ -266,6 +266,7 @@ section{
     justify-content: center;
     text-align: center;
     color: black;
+    filter: drop-shadow(2px 2px 0px white );
 }
 
 .tips section img:first-of-type{
@@ -361,7 +362,7 @@ section{
     margin: .5em;
     width: 17em;
     background-color: #464646;
-    padding: 1em;
+    padding: .7em;
     border-radius: .5em;
 }
 
@@ -453,7 +454,6 @@ body.meer{
     text-align: center;
     margin: .4em;
     color: #e8d4b9;
-    filter: drop-shadow(3px 3px 0px #464646 );
 }
 
 footer img{
