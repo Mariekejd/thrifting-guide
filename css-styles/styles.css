@@ -272,8 +272,8 @@ section{
 .tips section img:first-of-type{
     width: 7em;
     position: absolute;
-    top: 12em;
-    left: 21.5em;
+    top: 8em;
+    left: 17em;
     z-index: 1;
 }
 
@@ -281,8 +281,8 @@ section{
     width: 6em;
     height: 6em;
     position: absolute;
-    top: 22em;
-    right: 23em;
+    top: 18em;
+    right: 19.5em;
     z-index: 1;
 }
 
@@ -290,8 +290,8 @@ section{
     width: 7em;
     height: 7em;
     position: absolute;
-    top: 42em;
-    left: 21em;
+    top: 36.5em;
+    left: 17em;
     z-index: 1;
 }
 
@@ -454,6 +454,7 @@ body.meer{
     text-align: center;
     margin: .4em;
     color: #e8d4b9;
+    filter: drop-shadow(2px 2px 0px #464646 );
 }
 
 footer img{
