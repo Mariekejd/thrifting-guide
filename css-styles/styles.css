@@ -144,10 +144,10 @@ body.wegwijzer{
     background-color: #f2b13e;
     color: #464646;
     text-decoration: none;
-    border: .2em solid white;
-    border-radius: .7em;
+    border-radius: 1em;
     font-weight: bold;
     font-family: 'Hey Comic';
+    filter: drop-shadow(5px 5px 0px white );
 }
 
 /* Index pagina css code*/
@@ -218,17 +218,19 @@ section{
     padding: 0.5em;
     border-radius: 1em;
     color: white;
+    filter: drop-shadow(5px 5px 0px #6f6f4b );
+    margin: 2em 1em 2em 1em;
 }
 
 .welkom section:nth-child(2) h2{
     background-color: #e8d4b9;
     padding: .5em;
-    margin: .3em 0;
-    border: .2em solid #464646;
+    margin: .7em 0;
     border-radius: .7em;
     display: flex;
     justify-content: center;
     color: #464646;  
+    filter: drop-shadow(5px 5px 0px #464646 );
 }
 
 .welkom section:nth-child(2) p:nth-of-type(2){
@@ -253,6 +255,7 @@ section{
 
 .tips h1{
     margin: .3em;
+    filter: drop-shadow(3px 3px 0px white );
 }
 
 .tips section:first-of-type{
@@ -299,6 +302,10 @@ section{
     color: white;
 }
 
+.tips section:last-of-type h2{
+    filter: drop-shadow(3px 3px 0px #464646 );
+}
+
 .tips ol li{
     list-style-type: none;
 }
@@ -332,9 +339,12 @@ section{
 
 .wegwijzer h1{
     display: flex;
+    color: #464646;
+    font-size: xx-large;
     justify-content: center;
     margin: .3em;
     font-family: 'Magic Retro';
+    filter: drop-shadow(2.5px 2.5px 0px white);
 }
 
 .wegwijzer section:first-of-type{
@@ -344,6 +354,7 @@ section{
 
 .wegwijzer section:first-of-type > h2{
     color: #f2b13e;
+    filter: drop-shadow(2px 2px 0px #464646 );
 }
 
 .wegwijzer section:first-of-type img:first-of-type{
@@ -362,15 +373,17 @@ section{
 .wegwijzer section:nth-child(3){
     background-color: #464646;
     border-radius: .7em;
-    margin: 0.5em;
+    margin: 0.8em .6em .8em .6em;
     padding: .5em;
+    filter: drop-shadow(5px 5px 0px #e7bc71 );
 }
 
 .wegwijzer section:nth-child(4){
     background-color: #464646;
     border-radius: .7em;
-    margin: 0.5em;
+    margin: 0.8em .6em .8em .6em;
     padding: .5em;
+    filter: drop-shadow(5px 5px 0px #e7bc71 );
 }
 
 .wegwijzer section:nth-child(5) img{
@@ -413,11 +426,14 @@ body.meer{
     border-radius: .7em;
     padding: 1em;
     color: white;
+    margin: 0.8em .6em .8em .6em;
+    filter: drop-shadow(4px 5px 0px #e7bc71 );
 }
 
 .meer h1{
     margin: .5em;
     color: white;
+    filter: drop-shadow(3px 3px 0px #464646 );
 }
 
 .meer section:last-of-type ul li{
@@ -433,6 +449,13 @@ body.meer{
     margin-bottom: 1em;
 }
 
+.meer header p{
+    text-align: center;
+    margin: .4em;
+    color: #e8d4b9;
+    filter: drop-shadow(3px 3px 0px #464646 );
+}
+
 footer img{
    width: 40%;
    height: 40%;
@@ -442,3 +465,4 @@ footer img{
    margin: auto;
    margin-top: 2em;
 }
+
