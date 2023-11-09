@@ -1,3 +1,6 @@
+/* Ik wil graag even een paar dingen benoemen. Voor deze website heb ik gebruik gemaakt van css properties waar ik soms een tutorial voor of informatie voor heb opgezocht.
+Dit geld voor de position:absolute , z-index en filter: drop shadow elementen. De bronnen hiervoor zijn: mdn, w3schools en chatgpt. */
+
 *{
     margin: 0;
     padding: 0;
@@ -46,7 +49,7 @@ h2, h3{
 p{
     font-family: 'Comic Helvetic';
     font-weight: lighter;
-
+    line-height: 1.1;
 }
 
 footer{
@@ -60,16 +63,20 @@ footer{
 }
 
 footer img{
-    width: 1em;
-    height: 5em;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2em;
 }
 
 /* z-index heb ik gebruikt aangezien ik heeel soms op een pagina position:absolute 
-heb gebruikt om icoontjes juist te plaatsen op een speelse manier. Ze-index zorgt ervoor dat
-ze die icoontjes niet mijn nav overlappen wat ze in eerste instantie wel deden.
-Hier was vooral sprake van bij de tips & tricks pagina. Nu door de nav een hoger z-index value te geven,
+heb gebruikt om icoontjes juist te plaatsen op een speelse manier. Z-index zorgt ervoor dat
+die icoontjes niet mijn nav overlappen wat ze in eerste instantie wel deden.
+Hier was vooral sprake van bij de tips & tricks pagina. Nu door de nav een hogere z-index value te geven,
 heeft ie dus voorrang in overlapping. Chatgpt en MDN heeft me hierbij geholpen */
-
 
 nav{
     background-color: #702d37;
@@ -260,7 +267,7 @@ section{
 
 .tips section:first-of-type{
     margin: auto;
-    font-size: small;
+    font-size: 0.9em;
     max-width: 75% ;
     display: flex;
     justify-content: center;
@@ -273,7 +280,7 @@ section{
     width: 7em;
     position: absolute;
     top: 8em;
-    left: 17em;
+    left: 15em;
     z-index: 1;
 }
 
@@ -281,8 +288,8 @@ section{
     width: 6em;
     height: 6em;
     position: absolute;
-    top: 18em;
-    right: 19.5em;
+    top: 19em;
+    right: 17em;
     z-index: 1;
 }
 
@@ -290,8 +297,8 @@ section{
     width: 7em;
     height: 7em;
     position: absolute;
-    top: 36.5em;
-    left: 17em;
+    top: 43.5em;
+    left: 15.5em;
     z-index: 1;
 }
 
@@ -413,7 +420,7 @@ section{
     color: #464646;
 }
 
-/* Meer locaties */
+/* Meer winkels */
 
 body.meer{
     background-image: url("../Images/meerlocaties.jpg");
@@ -434,6 +441,7 @@ body.meer{
 .meer h1{
     margin: .5em;
     color: white;
+    text-align: center;
     filter: drop-shadow(3px 3px 0px #464646 );
 }
 
@@ -456,14 +464,3 @@ body.meer{
     color: #e8d4b9;
     filter: drop-shadow(2px 2px 0px #464646 );
 }
-
-footer img{
-   width: 40%;
-   height: 40%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: auto;
-   margin-top: 2em;
-}
-
