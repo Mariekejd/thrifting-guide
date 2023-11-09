@@ -72,11 +72,9 @@ footer img{
     margin-top: 2em;
 }
 
-/* z-index heb ik gebruikt aangezien ik heeel soms op een pagina position:absolute 
-heb gebruikt om icoontjes juist te plaatsen op een speelse manier. Z-index zorgt ervoor dat
-die icoontjes niet mijn nav overlappen wat ze in eerste instantie wel deden.
-Hier was vooral sprake van bij de tips & tricks pagina. Nu door de nav een hogere z-index value te geven,
-heeft ie dus voorrang in overlapping. Chatgpt en MDN heeft me hierbij geholpen */
+/* z-index heb ik gebruikt aangezien ik heeel soms op een pagina position:absolute heb gebruikt om icoontjes juist te plaatsen op een speelse manier. 
+Z-index zorgt ervoor dat die icoontjes niet mijn nav overlappen wat ze in eerste instantie wel deden.Hier was vooral sprake van bij de tips & tricks pagina. 
+Nu door de nav een hogere z-index value te geven,heeft ie dus voorrang in overlapping. Chatgpt en MDN heeft me hierbij geholpen */
 
 nav{
     background-color: #702d37;
